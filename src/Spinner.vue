@@ -40,6 +40,7 @@ export default {
     hide () {
       var delay = 0
       this.active = false
+      this._body.style.overflowY = this._bodyOverflow
     },
     show (options) {
       if (options) {
